@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #EDE4C1;
+    padding: 20px;
+    text-align: left;
+}
+
+.user-icon {
+    float: right;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    background-color: #F0E5C8;
+    padding: 10px;
+}
+
+aside button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #EDE4C1;
+    border: none;
+    cursor: pointer;
+}
+
+aside button:hover {
+    background-color: #D3C78B;
+}
+
+.profile {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile label {
+    margin-top: 10px;
+}
+
+.profile input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px;
+    background-color: #EDE4C1;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #D3C78B;
+}
